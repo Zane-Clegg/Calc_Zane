@@ -55,12 +55,12 @@ namespace main
 
             decimal Zeros()
             {
-                return 2;
+                return 5;
             }
 
             decimal Riemann()
             {
-                return 2;
+                return 5;
             }
         }
     }
