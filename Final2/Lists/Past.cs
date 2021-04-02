@@ -7,7 +7,7 @@ namespace PastClass
     {
         static void Past(string[] args)
         {
-            WriteLine("Hello World!");
+            WriteLine("Do the thing");
         }
     }
 }
