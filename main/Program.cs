@@ -36,6 +36,13 @@ namespace main
             h = Convert.ToDecimal(ReadLine());
             WriteLine(Pyramid(s,h));
 
+            WriteLine("Enter an equation");
+            //F(equation)
+            WriteLine("Enter a point");
+            //F(x)
+            WriteLine("The slope at that point is {}");
+            //slope
+
             decimal Pyramid(decimal s, decimal h)
             {
                 decimal v;
@@ -50,6 +57,10 @@ namespace main
             
             string Quadratic()
             {
+                if (false)//imaginary
+                {
+                    return null;
+                }
                 return null;
             }
 
@@ -58,9 +69,14 @@ namespace main
                 return 5;
             }
 
-            decimal Riemann()
+            decimal Riemann(int a, int b, int n, int c)
             {
                 return 5;
+            }
+
+            void F(int x3, int n3, int x2, int n2, int x1, int n1, int c)
+            {
+                
             }
         }
     }
