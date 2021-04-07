@@ -43,6 +43,20 @@ namespace main
             WriteLine("The slope at that point is {}");
             //slope
 
+            //quadratic
+
+            //zeros
+            
+            WriteLine("Where does your riemann sum start?");
+            int a = Convert.ToDecimal(ReadLine());
+            WriteLine("Where does it end");
+            int b = Convert.ToDecimal(ReadLine());
+            WriteLine("How many segments?");
+            int n = Convert.ToInt16(ReadLine());
+            WriteLine("Right hand or left hand? 1 for left 0 for right");
+            int c = Convert.ToInt16(ReadLine());
+            WriteLine(Riemann(a,b,n,c));
+
             decimal Pyramid(decimal s, decimal h)
             {
                 decimal v;
@@ -69,9 +83,17 @@ namespace main
                 return 5;
             }
 
-            decimal Riemann(int a, int b, int n, int c)
+            decimal Riemann(Function Func, int a, int b, int n, int c)
             {
-                return 5;
+                decimal diff = b - a;
+                decimal dx = diff/n;
+                decimal F = 0;
+                for(int i = 1; i < n + c; i++) 
+                {
+                     F += func(a + i*dx)*dx;
+                }
+                WriteLine("F(x) from " + start + " to " + end + " is " + F);
+                return F;
             }
 
             void F(int x3, int n3, int x2, int n2, int x1, int n1, int c)

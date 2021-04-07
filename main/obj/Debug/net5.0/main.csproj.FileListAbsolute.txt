@@ -14,3 +14,4 @@ C:\Users\zane.clegg\code\main\obj\Debug\net5.0\main.dll
 C:\Users\zane.clegg\code\main\obj\Debug\net5.0\ref\main.dll
 C:\Users\zane.clegg\code\main\obj\Debug\net5.0\main.pdb
 C:\Users\zane.clegg\code\main\obj\Debug\net5.0\main.genruntimeconfig.cache
+C:\Users\zaner\programming\calc\Calc_Zane\main\obj\Debug\net5.0\main.pdb
